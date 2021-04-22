@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- tsz → spa -->
+
+  <mode name="tsz-spa" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="tsz-spa.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="tsz-spa.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="tsz-spa.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="tsz-spa.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="tsz-spa.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="tsz-spa.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="tsz-spa.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="tsz-spa.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- spa → tsz -->
+
+  <mode name="spa-tsz" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="spa-tsz.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="spa-tsz.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-tsz.prob"/>
+      </program>
+
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-tsz.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="spa-tsz.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="spa-tsz.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="spa-tsz.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="spa-tsz.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+
