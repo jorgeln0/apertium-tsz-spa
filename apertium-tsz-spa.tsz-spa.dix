@@ -101,12 +101,56 @@
         <r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>wátsï<s n="n"/></l>
         <r>hijo<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>María<s n="n"/></l>
+      <e><p><l>María<s n="np"/></l>
         <r>Maria<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>itsi<s n="n"/></l>
+        <r>agua<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>maríkwa<s n="n"/></l>
+        <r>niña<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tumpí<s n="n"/></l>
+        <r>niño<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tsíri<s n="n"/></l>
+        <r>maiz<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tsíri<s n="n"/></l>
+        <r>pulga<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>xwánu<s n="np"/></l>
+        <r>Juan<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>tumína<s n="n"/></l>
+        <r>dinero<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>acháati<s n="n"/></l>
+        <r>hombre<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>wari<s n="n"/></l>
+        <r>mujer<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>t’u<s n="prn"/></l>
+        <r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>tsúntsu<s n="n"/></l>
+        <r>olla<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>imá<s n="det"/></l>
+        <r>esa<s n="det"/><s n="dem"/><s n="f"/></r></p></e>
+      <e><p><l>para<s n="det"/></l>
+        <r>para<s n="pr"/></r></p></e>
 
       <!-- verbs. -->
       <e><p><l>kwánita<s n="v"/><s n="iv"/></l>
         <r>prestar<s n="vblex"/></r></p></e>
+      <e><p><l>íntsku<s n="v"/><s n="tv"/></l>
+        <r>dar<s n="vblex"/></r></p></e>
+      <e><p><l>k’amára<s n="v"/><s n="tv"/></l>
+        <r>acabar<s n="vblex"/></r></p></e>
+      <e><p><l>xwá<s n="v"/><s n="tv"/></l>
+        <r>traer<s n="vblex"/></r></p></e>
+      <e><p><l>pyá<s n="v"/><s n="tv"/></l>
+        <r>comprar<s n="vblex"/></r></p></e>
+      <e><p><l>k’waníra<s n="v"/><s n="tv"/></l>
+        <r>tirar<s n="vblex"/></r></p></e>
+      <e><p><l>ewá<s n="v"/><s n="tv"/></l>
+        <r>robar<s n="vblex"/></r></p></e>
+      <e><p><l>intsikurhi<s n="v"/><s n="tv"/></l>
+        <r>dar<s n="vblex"/></r></p></e>
+      <e><p><l>piré<s n="v"/><s n="tv"/></l>
+        <r>cantar<s n="vblex"/></r></p></e>
+      <e><p><l>wántiku<s n="v"/><s n="tv"/></l>
+        <r>matar<s n="vblex"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
