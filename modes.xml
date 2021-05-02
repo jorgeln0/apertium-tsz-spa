@@ -11,12 +11,12 @@
       </program>
 
 
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -1 -n">
         <file name="tsz-spa.rlx.bin"/>
       </program>
-      <program name="apertium-tagger -g $2">
+      <!-- <program name="apertium-tagger -g $2">
         <file name="tsz-spa.prob"/>
-      </program>
+      </program> -->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="tsz-spa.autobil.bin"/>
@@ -78,4 +78,3 @@
     </pipeline>
   </mode>
 </modes>
-
