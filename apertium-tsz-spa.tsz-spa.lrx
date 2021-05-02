@@ -5,7 +5,7 @@
     Add your own rules within <rule> here, using the resources below as a guide
   -->
 
-  <rule>
+  <!-- <rule>
     <match lemma="wind"/>
     <match lemma="power" tags="n.*">
       <select lemma="energía" tags="n.*"/>
@@ -13,6 +13,21 @@
   </rule>
 </rules>
 
+ -->
+
+ <!-- If "tsíri" is used with wántikusti, it is likely to mean "flea" instead of "corn"-->
+  <rule weight = "2">
+    <match lemma="tsíri" >
+      <select lemma="matar" tags="vblex.*"/>
+    </match>
+    <match tags="pv"/>
+  </rule>
+
+  <rule>
+    <match lemma="vark">
+      <select lemma="live" tags="vblex.*"/>
+    </match>
+  </rule>
 <!--
 Resources:
     http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
@@ -20,4 +35,3 @@ Resources:
     http://wiki.apertium.org/wiki/Lexical_selection
     http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
 -->
-
