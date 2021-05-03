@@ -15,23 +15,36 @@
 
  -->
 
- <!-- If "tsíri" is used with wántikusti, it is likely to mean "flea" instead of "corn"-->
-  <rule weight = "2">
-    <match lemma="tsíri" >
-      <select lemma="matar" tags="vblex.*"/>
-    </match>
-    <match tags="pv"/>
-  </rule>
+ <!--If "tsíri" is accompanied by the following words, choose "flea" instead of "corn"-->
 
-  <rule>
-    <match lemma="vark">
-      <select lemma="live" tags="vblex.*"/>
-    </match>
-  </rule>
+ <!-- <rule>
+   <match lemma="tsíri" tags="n.*">
+     <select lemma="maiz"/>
+   </match>
+ </rule>
+
+ <rule weight="2">
+   <or>
+     <match lemma="wántiku" tags="v.tv*"/>
+   </or>
+   <repeat from="0" upto="5"><match/></repeat>
+   <match lemma="tsíri" tags="n.*">
+     <select lemma="pulga"/>
+   </match>
+ </rule> -->
+
+ <rule weight="2">
+   <match lemma="wántiku"/>
+   <match lemma="tsíri">
+     <select lemma="pulga"/>
+   </match>
+ </rule>
+
+</rules>
+
 <!--
 Resources:
     http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
     http://wiki.apertium.org/wiki/Constraint-based_lexical_selection
     http://wiki.apertium.org/wiki/Lexical_selection
-    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
--->
+    http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora -->
