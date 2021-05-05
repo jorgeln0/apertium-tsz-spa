@@ -121,6 +121,10 @@
             <r>pulga<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Xwánu<s n="np"/></l>
             <r>Juan<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>Rósa<s n="np"/></l>
+            <r>Rósa<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>Lúpi<s n="np"/></l>
+            <r>Lúpe<s n="np"/><s n="ant"/></r></p></e>
       <e><p><l>tumína<s n="n"/></l>
             <r>dinero<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>acháati<s n="n"/></l>
@@ -131,10 +135,20 @@
             <r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>tsúntsu<s n="n"/></l>
             <r>olla<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>kwártu<s n="n"/></l>
+            <r>cuarto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>jurhiata<s n="n"/></l>
+            <r>sol<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pirekua<s n="n"/></l>
+            <r>canción<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>imá<s n="det"/></l>
             <r>esa<s n="det"/><s n="dem"/><s n="f"/></r></p></e>
       <e><p><l>para<s n="det"/></l>
             <r>para<s n="pr"/></r></p></e>
+      <e><p><l>pimbinhasï<s n="adj"/></l>
+            <r>limpio<s n="adj"/></r></p></e>
+      <e><p><l>pimbinhasï<s n="adj"/></l>
+            <r>santo<s n="adj"/></r></p></e>
 
       <!-- verbs. -->
       <e><p><l>kwánita<s n="v"/><s n="iv"/></l>
@@ -157,6 +171,8 @@
             <r>cantar<s n="vblex"/></r></p></e>
       <e><p><l>wántiku<s n="v"/><s n="tv"/></l>
             <r>matar<s n="vblex"/></r></p></e>
+      <e><p><l>eshé<s n="v"/><s n="tv"/></l>
+            <r>ver<s n="vblex"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>

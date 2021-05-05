@@ -17,21 +17,11 @@
 
  <!--If "tsíri" is accompanied by the following words, choose "flea" instead of "corn"-->
 
- <!-- <rule>
+ <rule>
    <match lemma="tsíri" tags="n.*">
      <select lemma="maiz"/>
    </match>
  </rule>
-
- <rule weight="2">
-   <or>
-     <match lemma="wántiku" tags="v.tv*"/>
-   </or>
-   <repeat from="0" upto="5"><match/></repeat>
-   <match lemma="tsíri" tags="n.*">
-     <select lemma="pulga"/>
-   </match>
- </rule> -->
 
  <rule weight="2">
    <match lemma="wántiku"/>
@@ -39,6 +29,41 @@
      <select lemma="pulga"/>
    </match>
  </rule>
+
+<!-- if holy/clean is used -->
+
+ <rule>
+   <match lemma="pimbinhasï">
+     <select lemma="limpio" tags="adj.*"/>
+   </match>
+ </rule>
+
+ <rule weight="2">
+   <match lemma="jurhiata"/>
+   <match lemma="pimbinhasï" tags="adj.*">
+     <select lemma="santo" tags="adj.*"/>
+   </match>
+ </rule>
+
+
+ <!-- <rule weight="3">
+   <match lemma="pirekua"/>
+   <match lemma="pimbinhasï">
+     <select lemma="santo"/>
+   </match>
+ </rule> -->
+
+ <!-- <rule weight="2">
+   <or>
+   <match lemma="jurhiata" tags="n.*"/>
+   <match lemma="pirekua" tags="n.*"/>
+   </or>
+   <repeat from="0" upto="3"><match/></repeat>
+   <match lemma="pimbinhasï" tags="adj.*">
+     <select lemma="santo"/>
+   </match>
+ </rule> -->
+
 
 </rules>
 
