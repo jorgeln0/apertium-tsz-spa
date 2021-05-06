@@ -103,12 +103,8 @@
 
    <section id="main" type="standard">
       <!-- Define entries within <e> here. -->
-      <e><p><l>xí<s n="prn"/></l>
-            <r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>wátsï<s n="n"/></l>
             <r>hijo<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>María<s n="np"/></l>
-            <r>Maria<s n="np"/><s n="ant"/></r></p></e>
       <e><p><l>itsi<s n="n"/></l>
             <r>agua<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>maríkwa<s n="n"/></l>
@@ -119,20 +115,12 @@
             <r>maiz<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tsíri<s n="n"/></l>
             <r>pulga<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>Xwánu<s n="np"/></l>
-            <r>Juan<s n="np"/><s n="ant"/></r></p></e>
-      <e><p><l>Rósa<s n="np"/></l>
-            <r>Rósa<s n="np"/><s n="ant"/></r></p></e>
-      <e><p><l>Lúpi<s n="np"/></l>
-            <r>Lúpe<s n="np"/><s n="ant"/></r></p></e>
       <e><p><l>tumína<s n="n"/></l>
             <r>dinero<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>acháati<s n="n"/></l>
             <r>hombre<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>wari<s n="n"/></l>
             <r>mujer<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>t’u<s n="prn"/></l>
-            <r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
       <e><p><l>tsúntsu<s n="n"/></l>
             <r>olla<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>kwártu<s n="n"/></l>
@@ -141,14 +129,51 @@
             <r>sol<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>pirekua<s n="n"/></l>
             <r>canción<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>imá<s n="det"/></l>
-            <r>esa<s n="det"/><s n="dem"/><s n="f"/></r></p></e>
-      <e><p><l>para<s n="det"/></l>
-            <r>para<s n="pr"/></r></p></e>
+      <e><p><l>kwártu<s n="n"/></l>
+            <r>canción<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ráma<s n="n"/></l>
+            <r>rama<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>anátapu<s n="n"/></l>
+            <r>árbol<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pwérta<s n="n"/></l>
+            <r>puerta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>táa<s n="n"/></l>
+            <r>casa<s n="n"/><s n="f"/></r></p></e>
+
+      <!-- pronouns. -->
+      <e><p><l>xí<s n="prn"/></l>
+            <r>yo<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>t’u<s n="prn"/></l>
+            <r>tú<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+
+
+      <!-- names. -->
+      <e><p><l>Xwánu<s n="np"/></l>
+            <r>Juan<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>Rósa<s n="np"/></l>
+            <r>Rósa<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>Lúpi<s n="np"/></l>
+            <r>Lúpe<s n="np"/><s n="ant"/></r></p></e>
+      <e><p><l>María<s n="np"/></l>
+            <r>Maria<s n="np"/><s n="ant"/></r></p></e>
+
+      <!-- adjectives. -->
       <e><p><l>pimbinhasï<s n="adj"/></l>
             <r>limpio<s n="adj"/></r></p></e>
       <e><p><l>pimbinhasï<s n="adj"/></l>
             <r>santo<s n="adj"/></r></p></e>
+
+      <!-- Preposition -->
+      <e><p><l>para<s n="pr"/></l>
+            <r>para<s n="pr"/></r></p></e>
+      <e><p><l>xinkóni<s n="pr"/></l>
+            <r>a<s n="pr"/></r></p></e>
+
+      <!-- determinants -->
+      <e><p><l>imá<s n="det"/></l>
+            <r>esa<s n="det"/><s n="dem"/><s n="f"/></r></p></e>
+      <e><p><l>máru<s n="det"/></l>
+            <r>algún<s n="det"/><s n="ind"/><s n="m"/></r></p></e>
 
       <!-- verbs. -->
       <e><p><l>kwánita<s n="v"/><s n="iv"/></l>
@@ -173,6 +198,15 @@
             <r>matar<s n="vblex"/></r></p></e>
       <e><p><l>eshé<s n="v"/><s n="tv"/></l>
             <r>ver<s n="vblex"/></r></p></e>
+      <e><p><l>kw’i<s n="v"/><s n="iv"/></l>
+            <r>dormir<s n="vblex"/></r></p></e>
+      <e><p><l>kwaká<s n="v"/><s n="tv"/></l>
+            <r>mojar<s n="vblex"/></r></p></e>
+      <e><p><l>kurhú<s n="v"/><s n="tv"/></l>
+            <r>quemar<s n="vblex"/></r></p></e>
+      <e><p><l>ikía<s n="v"/><s n="iv"/></l>
+            <r>enojar<s n="vblex"/></r></p></e>
+
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
