@@ -34,15 +34,18 @@
 
  <rule>
    <match lemma="pimbinhasï">
-     <select lemma="limpio" tags="adj.*"/>
+     <select lemma="limpio" tags="adj"/>
    </match>
  </rule>
 
  <rule weight="2">
+   <match lemma="pimbinhasï" tags="adj">
+     <select lemma="santo" tags="adj"/>
+     </match>
+     <or>
    <match lemma="jurhiata"/>
-   <match lemma="pimbinhasï" tags="adj.*">
-     <select lemma="santo" tags="adj.*"/>
-   </match>
+   <match lemma="pirekua"/>
+     </or>
  </rule>
 
 
