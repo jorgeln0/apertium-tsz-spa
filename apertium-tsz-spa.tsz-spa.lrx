@@ -49,23 +49,35 @@
  </rule>
 
 
- <!-- <rule weight="3">
-   <match lemma="pirekua"/>
-   <match lemma="pimbinhasï">
-     <select lemma="santo"/>
-   </match>
- </rule> -->
+ <!-- if xí is used: I or myself -->
 
- <!-- <rule weight="2">
-   <or>
-   <match lemma="jurhiata" tags="n.*"/>
-   <match lemma="pirekua" tags="n.*"/>
-   </or>
-   <repeat from="0" upto="3"><match/></repeat>
-   <match lemma="pimbinhasï" tags="adj.*">
-     <select lemma="santo"/>
+ <rule>
+   <match lemma="xí">
+     <select lemma="yo"/>
    </match>
- </rule> -->
+ </rule>
+
+ <rule weight="2">
+   <match lemma="xí">
+     <select lemma="conmigo"/>
+     </match>
+   <match lemma="xinkóni"/>
+ </rule>
+
+<!-- if xinkóni is used: at or with -->
+
+<rule>
+  <match lemma="xinkóni">
+    <select lemma="a" tags="pr"/>
+  </match>
+</rule>
+
+<rule weight="2">
+  <match lemma="xí"/>
+  <match lemma="xinkóni" tags="pr">
+    <select lemma="con" tags="pr"/>
+    </match>
+</rule>
 
 
 </rules>

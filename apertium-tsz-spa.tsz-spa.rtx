@@ -15,6 +15,9 @@ n: _.gender.number;
 adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
+pr: _;
+prn: _;
+np: _;
 
 NP: _.number;
 
@@ -37,7 +40,20 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
+!! NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
+
+NP -> %n pr {2 _ 1} ;
+
+NP -> %n adj pr {3 _ 2 _ 1} ;
+
+NP -> np pr {2 _ 1} ;
+
+NP -> np adj pr {3 _ 2 _ 1} ;
+
+NP -> prn pr {2 _ 1} ;
+
+NP -> prn adj pr {3 _ 2 _ 1} ;
+
 
 ! Resources:
 ! http://wiki.apertium.org/wiki/Apertium-recursive
