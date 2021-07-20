@@ -1,3 +1,5 @@
+# list of word roots directly translated from Purepechan to Spanish
+
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
    <!-- Define the alphabet below. -->
@@ -139,7 +141,7 @@
             <r>puerta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>táa<s n="n"/></l>
             <r>casa<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>ajusï<s n="n"/></l> <!-- number 1 -->
+      <e><p><l>ajusï<s n="n"/></l>
             <r>ojo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>akuitsi<s n="n"/></l>
             <r>culebra<s n="n"/><s n="f"/></r></p></e>
@@ -244,9 +246,9 @@
             <r>limpio<s n="adj"/></r></p></e>
       <e><p><l>pimbinhasï<s n="adj"/></l>
             <r>santo<s n="adj"/></r></p></e>
-      <e><p><l>aspiti<s n="adj"/></l> <!-- number 1 -->
+      <e><p><l>aspiti<s n="adj"/></l>
             <r>sabroso<s n="adj"/></r></p></e>
-      <e><p><l>charhapiti<s n="adj"/></l> <!-- number 1 -->
+      <e><p><l>charhapiti<s n="adj"/></l> 
             <r>rojo<s n="adj"/></r></p></e>
 
       <!-- Preposition -->
@@ -294,7 +296,7 @@
             <r>quemar<s n="vblex"/></r></p></e>
       <e><p><l>ikía<s n="v"/><s n="iv"/></l>
             <r>enojar<s n="vblex"/></r></p></e>
-      <e><p><l>ambajtsïku<s n="v"/><s n="tv"/></l> <!-- number 1 -->
+      <e><p><l>ambajtsïku<s n="v"/><s n="tv"/></l>
             <r>peinar<s n="vblex"/></r></p></e>
       <e><p><l>ambakera<s n="v"/><s n="tv"/></l>
             <r>limpiar<s n="vblex"/></r></p></e>
